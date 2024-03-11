@@ -14,9 +14,9 @@ public class OperadoresLogicos {
             System.out.println("O número é ímpar.");
         }
 
-        Scanner leitura = new Scanner(System.in);
+        Scanner leituras = new Scanner(System.in);
         System.out.println("Qual a sua idade?");
-        int idade = leitura.nextInt();
+        int idade = leituras.nextInt();
 
         if(idade >= 18){
             System.out.println("Bem vindo ao sistema");
@@ -24,9 +24,9 @@ public class OperadoresLogicos {
             System.out.println("Ops, você não pode acessar o sistema.");
         }
 
-        Scanner leitura = new Scanner(System.in);
+        Scanner leituranota = new Scanner(System.in);
         System.out.println("Qual a sua nota?");
-        double nota = leitura.nextDouble();
+        double nota = leituranota.nextDouble();
 
         if (nota >= 7.0) {
             System.out.println("Você está Aprovado!");
@@ -87,9 +87,9 @@ public class OperadoresLogicos {
 
 
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Digite o número correspondente a um dia da semana considerando o (1) Domingo: ");
-        int diaSemana = scanner.nextInt();
+        int diaSemana = sc.nextInt();
 
         switch (diaSemana){
             case 1:
