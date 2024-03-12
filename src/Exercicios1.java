@@ -89,6 +89,7 @@ public class Exercicios1 {
                 System.out.println(numero+" é um número par");
                 break;
             case 1:
+            case -1:
                 System.out.println(numero+" é um número ímpar");
                 break;
             default:
