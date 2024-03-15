@@ -21,18 +21,20 @@ public class GameRandom {
             palpite = leitura.nextInt();
 
             if (palpite == numerodasorte) {
-                System.out.println("Parabénssssss você acertou!");
+                System.out.println("\u001B[32mParabénssssss você acertou!\u001B[0m");
             } else {
                 chances = chances - 1;
                 if (chances == 0) {
-                    System.out.println("Game over!");
+                    System.out.println("Game over! O número era " + numerodasorte);
                 } else {
-                    System.out.println("Tente novamente. Você ainda tem " + chances + " chances.\n" + retorno);
+                    if (numerodasorte > palpite) {
+                        System.out.println("Tente novamente. Você ainda tem " + chances + " chances. Tente um número maior");
+                    } else {
+                        System.out.println("Tente novamente. Você ainda tem " + chances + " chances. Tente um número menor.");
+                    }
                 }
                 contador++;
             }
         }
-
-
     }
 }
