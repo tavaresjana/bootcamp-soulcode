@@ -22,7 +22,7 @@ public class ListaTarefas {
             switch (opcao) {
                 case 1:
                     System.out.println("Você escolheu ADICIONAR uma tarefa.");
-                    System.out.println("Digite a tarefa que você deseja adicioanr");
+                    System.out.println("Digite a tarefa que você deseja adicionar");
                     tarefas.add(leitura.nextLine());
                     System.out.println("Cadastrado com sucesso!");
                     break;
@@ -37,6 +37,7 @@ public class ListaTarefas {
                     tarefasDeletadas.add(tarefas.get(apagar-1));
 
                     tarefas.remove(apagar-1);
+                    System.out.println("Deletado com sucesso!");
 
                     break;
                 case 3:
