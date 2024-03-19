@@ -1,3 +1,5 @@
+package aula1103;
+
 import java.util.Scanner;
 
 public class OperadoresLogicos {

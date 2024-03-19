@@ -1,3 +1,5 @@
+package aula1803;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Scanner;

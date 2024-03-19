@@ -1,3 +1,5 @@
+package aula1203;
+
 import java.util.Scanner;
 
 public class Exercicios1 {

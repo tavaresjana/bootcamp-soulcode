@@ -1,3 +1,5 @@
+package aula0703;
+
 import java.util.Scanner;
 
 public class Scanners {

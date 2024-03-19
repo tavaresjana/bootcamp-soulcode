@@ -1,25 +1,22 @@
+package aula1503;
+
 import java.util.Scanner;
 
-public class Vetor {
-
+public class Arrays {
     public static void main(String[] args) {
 
         Scanner leitura = new Scanner(System.in);
+        int numero;
+        numero = 15;
 
-        int[] numeros = new int[4];
+        int[] numeros = new int[3];
 
-        numeros[1] = 10;
-        numeros[3] = 8;
         numeros[0] = 9;
-        numeros[2] = 4;
-
-
-        System.out.println("Valor na posição 1: "+numeros[1]);
-        for(int i = 0;  i < numeros.length; i++){
-            System.out.println("Posição: "+i+ ". Número: "+ numeros[i]);
-        }
+        numeros[1] = 10;
+        numeros[2] = 5;
 
         String[] nomes = new String[3];
+
 
         nomes[0] = "Jana";
         nomes[1] = "Lari";
@@ -28,5 +25,6 @@ public class Vetor {
         for(int i = 0;  i < nomes.length; i++){
             System.out.println("Nome: "+ nomes[i] + ", Idade: "+numeros[i]);
         }
+
     }
 }

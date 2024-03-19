@@ -1,3 +1,5 @@
+package aula0603;
+
 import java.util.Scanner;
 
 public class Atividades {

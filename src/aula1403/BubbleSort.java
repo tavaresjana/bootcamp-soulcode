@@ -1,3 +1,5 @@
+package aula1403;
+
 import java.util.Scanner;
 
 public class BubbleSort {
@@ -16,7 +18,7 @@ public class BubbleSort {
         int aux = 0;
         int i = 0;
 
-        System.out.println("Vetor desorganizado:");
+        System.out.println("aula1403.Vetor desorganizado:");
         for (i = 0; i < 5; i++) {
             System.out.println(" " + numeros[i]);
         }
@@ -31,13 +33,13 @@ public class BubbleSort {
                 }
             }
         }
-        System.out.println("Vetor organizado:");
+        System.out.println("aula1403.Vetor organizado:");
         for (i = 0; i < numeros.length; i++) {
             System.out.println(" " + numeros[i]);
         }
 
         for(i=0; i<4; i++){
-            System.out.println("Primeiro For - fora");
+            System.out.println("Primeiro aula1303.For - fora");
             for (int j=0; j<4; j++){
                 System.out.println("Segundo for - dentro");
             }
