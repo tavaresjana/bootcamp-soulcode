@@ -60,6 +60,14 @@ public class MetodoListaTarefas {
         }
     }
 
+    public static void exibirMenu(){
+        System.out.println("\n ░ ▒ ▓ MENU PRINCIPAL ░ ▒ ▓");
+        System.out.println("\nDigite 1 - Adicionar Tarefas" +
+                "\nDigite 2 - Excluir tarefas" +
+                "\nDigite 3 - Exibir tarefas" +
+                "\nDigite 4 - Exibir tarefas excluídas" +
+                "\nDigite 5 - sair");
+    }
 
 
     public static void main(String[] args) {
@@ -67,16 +75,10 @@ public class MetodoListaTarefas {
         int opcao =0;
 
         do {
-            System.out.println("\n ░ ▒ ▓ MENU PRINCIPAL ░ ▒ ▓");
-            System.out.println("\nDigite 1 - Adicionar Tarefas" +
-                    "\nDigite 2 - Excluir tarefas" +
-                    "\nDigite 3 - Exibir tarefas" +
-                    "\nDigite 4 - Exibir tarefas excluídas" +
-                    "\nDigite 5 - sair");
+            exibirMenu();
 
             opcao = leitura.nextInt();
             leitura.nextLine();
-
 
             switch (opcao) {
                 case 1:
