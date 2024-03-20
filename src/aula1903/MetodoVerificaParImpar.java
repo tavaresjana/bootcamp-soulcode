@@ -1,15 +1,14 @@
 package aula1903;
 
-import java.util.Scanner;
-
 public class MetodoVerificaParImpar {
-    public static int metodoretorno(){
+    public static int metodoretorno() {
         return 10;
     }
-    public static String verificaParImpar(int numero){
-        if(numero%2 == 0){
+
+    public static String verificaParImpar(int numero) {
+        if (numero % 2 == 0) {
             return "O numero é par";
-        }else{
+        } else {
             return "O numero é impar";
         }
     }
