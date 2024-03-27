@@ -25,9 +25,11 @@ public class ContaBancaria {
     }
 
     public void depositar(float valor){
-        float saldotemp = saldo;
-        saldo = saldotemp + valor;
-        System.out.println("Seu depósito no valor de R$ "+valor+" foi efetuado. Seu saldo atual é R$ "+saldo);
+        if(valor > 0) {
+            saldo += valor;
+            setSaldo(saldo);
+            System.out.println("Seu depósito no valor de R$ "+valor+" foi efetuado. Seu saldo atual é R$ "+saldo);
+        }
     }
 
     public String getCliente() {
