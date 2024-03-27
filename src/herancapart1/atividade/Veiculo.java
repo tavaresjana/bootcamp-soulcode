@@ -15,7 +15,7 @@ public class Veiculo {
     }
 
     public void exibirDados() {
-        System.out.println("Cor: "+ marca);
+        System.out.println("Marca: "+ marca);
         System.out.println("Modelo: "+ modelo);
         System.out.println("Cor: "+ cor);
         System.out.println("Ano: "+ ano);
