@@ -1,6 +1,4 @@
-package aula2703.contabancaria;
-
-import java.sql.SQLOutput;
+package aula2703.exercicioconta;
 
 public class Contas {
     public static void main(String[] args) {

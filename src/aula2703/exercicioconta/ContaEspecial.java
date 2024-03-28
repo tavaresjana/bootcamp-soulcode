@@ -1,4 +1,4 @@
-package aula2703.contabancaria;
+package aula2703.exercicioconta;
 
 public class ContaEspecial extends ContaBancaria{
 
