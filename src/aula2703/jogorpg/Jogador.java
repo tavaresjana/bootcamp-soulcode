@@ -94,17 +94,17 @@ public class Jogador {
         vidaInimigo -= dano;
         inimigo.setVida(vidaInimigo);
         if (ataque == 10) {
-            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
             System.out.println("Você atacou o inimigo com um golpe leve e tirou " + dano + " pontos de vida.");
-            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
         } else if (ataque == 15) {
-            System.out.println("-----------------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
             System.out.println("Você atacou o inimigo com uma explosão moderada e tirou " + dano + " pontos de vida.");
-            System.out.println("-----------------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
         } else if (ataque == 20) {
-            System.out.println("-----------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
             System.out.println("Você atacou o inimigo com um golpe fatal e tirou " + dano + " pontos de vida.");
-            System.out.println("------------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
         }
     }
 
@@ -114,17 +114,17 @@ public class Jogador {
         vidaJogador -= dano;
         jogador.setVida(vidaJogador);
         if (inimigo.getAtaque() == 5) {
-            System.out.println("--------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
             System.out.println("O inimigo te atacou com um golpe leve e tirou " + dano + " pontos de vida.");
-            System.out.println("--------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
         } else if (inimigo.getAtaque() == 15) {
-            System.out.println("----------------------------------------------------------------------------------");
+            System.out.println("--------------------------------------------------------------------------------");
             System.out.println("O inimigo te atacou com uma explosão moderada e tirou " + dano + " pontos de vida.");
-            System.out.println("----------------------------------------------------------------------------------");
+            System.out.println("--------------------------------------------------------------------------------");
         } else if (inimigo.getAtaque() == 20) {
-            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
             System.out.println("O inimigo te atacou com um golpe fatal e tirou " + dano + " pontos de vida.");
-            System.out.println("----------------------------------------------------------------------------");
+            System.out.println("---------------------------------------------------------------------------------");
         }
         if (statusVida() && inimigo.statusVida()) {
             System.out.println("Status jogo: \n" + "Jogador vida: " + jogador.getVida() + "\nInimigo vida: " + inimigo.getVida());
