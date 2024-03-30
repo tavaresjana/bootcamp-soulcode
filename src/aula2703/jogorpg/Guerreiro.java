@@ -1,12 +1,17 @@
 package aula2703.jogorpg;
 
-public class Guerreiro extends Jogador{
+public class Guerreiro extends Jogador {
+    private static String nomeClasse = "Guerreiro";
+    public Guerreiro() {
+        super(100, 15, 12);
+    }
 
-    public Guerreiro(int vida, int ataque, int defesa) {
-        super(vida, ataque, defesa);
+    public Guerreiro(String nome) {
+        super(100, 15, 20, nome);
     }
-    @Override
-    public void alterarAtributos(int novaVida, int novoAtaque, int novaDefesa) {
-        super.alterarAtributos(100, 10, 4);
+
+    public static String getNomeClasse() {
+        return nomeClasse;
     }
+
 }

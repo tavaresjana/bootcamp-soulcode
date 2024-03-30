@@ -1,12 +1,19 @@
 package aula2703.jogorpg;
 
-public class Mago extends Jogador{
+public class Mago extends Jogador {
+    private static String nomeClasse = "Mago";
 
-    public Mago(int vida, int ataque, int defesa) {
-        super(vida, ataque, defesa);
+    public Mago() {
+        super(100, 20, 15);
     }
-    @Override
-    public void alterarAtributos(int novaVida, int novoAtaque, int novaDefesa) {
-        super.alterarAtributos(100, 10, 4);
+
+    public Mago(String nome) {
+        super(100, 20, 8, nome);
     }
+
+    public static String getNomeClasse() {
+        return nomeClasse;
+    }
+
 }
+
